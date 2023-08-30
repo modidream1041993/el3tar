@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background: #0000;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.text {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 32px 0; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+
+}
+
+.text #myLinks {
+    display: inline-block;
+}
+
+.text a {
+    color: white;
+    border: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-align: right;
+    text-decoration: solid;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.text a.icon {
+    background: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.text a:hover {
+    background: rgba(32, 0, 32, 0);
+    color: rgb(7, 70, 143);
+}
+
+/* nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    color: #fff;
+} */
+
+/* p #pcart {
+    font-size: 1px;
+} */
+
+
+
+
+a {
+    font-size: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cotainer {
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    background: #000000;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    flex-basis: 50px;
+    min-width: 300px;
+}
+
+.col img {
+    width: 950px;
+    height: 850px;
+    padding: 120px 0;
+    margin-left: -380px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.col h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 35px -65px;
+    color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    background: #034bff;
+    color: #040000;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background-color: #034bff;
+    color: #fff;
+}
+
+.header {
+    background: #000;
+    background: radial-gradient(#000000, #000000);
+}
+
+.header .row {
+    margin-top: 35px;
+}
+
+.categories {
+    background: #000;
+    margin: 70px 1;
+}
+
+.colll {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.colll img {
+    flex-direction: row;
+    width: 100%;
+}
+
+.scotainer {
+    background: #000;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.colll {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.colll img {
+    width: 100%;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: "";
+    background: #ffffff;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h3 {
+    text-align: start;
+    margin-right: 19px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+p {
+    text-align: start;
+    margin-right: 19px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.collll p {
+    text-align: right 12px;
+    margin-right: 12px;
+    font-size: 19px;
+}
+
+.rating .fa {
+    color: red;
+}
+
+.collll:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 15px;
+    padding: 60px 0 20px;
+}
+
+
+
+.footer h3 {
+    padding-left: 1px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    padding-left: 1px;
+    padding-right: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30px;
+}
+
+.footer-col-2,
+.footer-col-3 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #000000;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .text {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #000000;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    .text a {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .text a.icon {
+        color: #fff;
+    }
+
+
+
+}
+
+.row2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select {
+    border: 1px solid #ffff;
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.page-btn {
+    margin: 0 auto 80px;
+}
+
+.page-btn span {
+    background: whitesmoke;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover {
+    background: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2,
+    .col-3,
+    .col-4 {
+        flex-basis: 100%;
+    }
+
+    .single-product .row {
+        text-align: left;
+    }
+
+    .single-product .col-2 {
+        padding: 20px 0;
+    }
+
+    .single-product h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .cart-info p {
+        display: none;
+    }
+}
+
+
+.account-page {
+    padding: 50px 0;
+    background: black;
+}
+
+.form-container {
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    margin-right: 350px;
+    position: relative;
+    border-radius: 18px;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-container span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn {
+    display: inline-block;
+}
+
+.form-container form {
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+form input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .btn:focus {
+    outline: none;
+}
+
+#LoginForm {
+    left: -300px;
+}
+
+#RegForm {
+    left: 0;
+}
+
+form a {
+    font-size: 12px;
+}
+
+#indicator {
+    width: 100px;
+    border: none;
+    background: #ffffff;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+/* Cart Items Details */
+.cart {
+    background: #000;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.cartcontainer {
+    max-width: 1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+table {
+    width: 100%;
+    background: #000000;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    margin-bottom: 25px;
+    text-align: left;
+    padding: 5px;
+    color: #ffffff;
+    background: #070000;
+    font-weight: normal;
+
+}
+
+td {
+    background: rgb(0, 0, 0);
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price {
+    color: white;
+    /* background: whitesmoke; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid #ffffff;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child {
+    color: white;
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
