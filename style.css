@@ -363,6 +363,10 @@ select:focus {
     .col-4 {
         flex-basis: 100%;
     }
+    .col img{
+        width:600px;
+        
+    }
 
     .single-product .row {
         text-align: left;
