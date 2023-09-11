@@ -356,6 +356,8 @@ select:focus {
 @media only screen and (max-width: 600px) {
     .row {
         text-align: center;
+        padding-top:90;
+        
     }
 
     .col-2,
